@@ -21,19 +21,35 @@ for (var i = 0; i < house.length ; i++)
     }
 }
 
+console.log("\n")
+
+for (var i = 0; i < house.length ; i++) 
+{
+    house[i]=house[i]+10
+}
+console.log(house)
 
 console.log("\n")
-for (var i of house1) 
+
+
+for (var i = 0; i < house.length ; i++) 
 {
-    console.log(i)
+    console.log(house[i]=house[i]+10)
 }
+
+// console.log("\n")
+
+// for (var i of house1) 
+// {
+//     console.log(i)
+// }
 
 
 
 // console.log("\n")
 
-// for (var i=0 in house1) 
+// for (var values in house1) 
 // {
-//     console.log(house1[i])
+//     console.log(values,": ", house1[values])
 // }
 

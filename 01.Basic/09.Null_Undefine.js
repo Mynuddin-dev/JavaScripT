@@ -2,7 +2,7 @@
 The Null Value
 
 It’s just a special value which represents “nothing”, “empty” or “value unknown”.
-
+NULL is special type used as a absence of an object
 */
 var xyz = null
 console.log(xyz)

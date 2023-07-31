@@ -9,32 +9,31 @@
 // The first form of the syntax terminates the innermost enclosing loop or switch.
 // The second form of the syntax terminates the specified enclosing labeled statement.
 
-let i = 0
+// let i = 0
 
-while (i < 6) {
-  if (i == 3) {
-    break
-  }
-  i = i + 1
-}
-
-console.log(i)
-
+// while (i < 6) {
+//   if (i == 3) {
+//     break
+//   }
+//   i = i + 1
+// }
+// console.log(i)
 
 
-const food = "sushi";
 
-switch (food) {
-  case "sushi":
-    console.log("Sushi is originally from Japan.");
-    break;
-  case "pizza":
-    console.log("Pizza is originally from Italy.");
-    break;
-  default:
-    console.log("I have never heard of that dish.");
-    break;
-}
+// const food = "sushi";
+
+// switch (food) {
+//   case "sushi":
+//     console.log("Sushi is originally from Japan.");
+//     break;
+//   case "pizza":
+//     console.log("Pizza is originally from Italy.");
+//     break;
+//   default:
+//     console.log("I have never heard of that dish.");
+//     break;
+// }
 
 
 
@@ -48,6 +47,10 @@ while (true) {
     }
     
 }
+console.log("\n")
+
+// Infinity loop 
+
 for (; ;) {
     var rand = Math.floor(Math.random() * 10 + 1)
     if (rand == 9) {
@@ -60,13 +63,11 @@ for (; ;) {
 }
 
 
-for (var x = 1; x <= 30; x++) {
-  if (x % 5 == 0) {
-    break
-  } else {
-    console.log(x)
-  }
+// for (var x = 1; x <= 30; x++) {
+//   if (x % 5 == 0) {
+//     break
+//   } else {
+//     console.log(x)
+//   }
 
-}
-
-console.log("\n\n")
+// }

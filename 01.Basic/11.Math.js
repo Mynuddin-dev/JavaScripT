@@ -40,10 +40,10 @@ console.log(Math.sqrt(-64))
 console.log(Math.sqrt(81))
 console.log(Math.sqrt(80))
 
-console.log("\n")
+console.log("\nRandom")
 
 console.log(Math.random())
-console.log(Math.random() * 50 + 1)
+console.log(Math.round(Math.random() * 50 + 1))
 
 console.log("\n")
 /*

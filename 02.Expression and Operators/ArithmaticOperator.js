@@ -10,16 +10,16 @@ console.log(2 + true)
 // expected result: 3
 
 console.log('hello ' + 'everyone')
-// expected result: "hello everyone"
+// // expected result: "hello everyone"
 
 console.log(2001 + ': A Space Odyssey')
-// expected result: "2001: A Space Odyssey"
+// // expected result: "2001: A Space Odyssey"
 
 
-// Number + Number -> addition
+// // Number + Number -> addition
 console.log(1 + 2 ) // 3
 
-// Boolean + Number -> addition
+// // Boolean + Number -> addition
 console.log(true + 1 )// 2
 
 
@@ -29,13 +29,13 @@ console.log(true + false)
 console.log(true + true + false)
 
 
-// String + String -> concatenation
+// // String + String -> concatenation
 console.log('foo' + 'bar') // "foobar"
 
-// Number + String -> concatenation
+// // Number + String -> concatenation
 console.log(5 + 'foo') // "5foo"      auto convert
 
-// String + Boolean -> concatenation
+// // String + Boolean -> concatenation
 console.log('foo' + false) // "foofalse   auto convert
 
 
@@ -83,9 +83,10 @@ console.log(1.5454 / 2.0)
 
 
 
-//Multiplication Operator
-console.log(3 * 4)
-// expected output: 12
+// //Multiplication Operator
+// console.log(3 * 4)
+// // expected output: 12
+console.log("")
 
 console.log(-3 * 4)
 // expected output: -12
@@ -98,7 +99,7 @@ console.log('3' * '2')
 console.log('foo' * 2)
 // expected output: NaN
 
-console.log("\n\n", 3* 4)
+console.log("\n", 3* 4)
 console.log(3 * -8)
 console.log(3 * Infinity)
 console.log(Infinity * Infinity)
@@ -106,6 +107,7 @@ console.log(-Infinity * Infinity)
 console.log(0 * Infinity)
 console.log(-54 * Infinity)
 
+console.log("")
 
 // Reminder Or Modulas %
 console.log(12 % 5)
@@ -121,3 +123,16 @@ console.log(NaN % 2)
 console.log(Infinity % 2)
 console.log(Infinity % 0)
 console.log(Infinity % Infinity)
+
+// incremental operator
+console.log("")
+var a = 11
+var b = 6
+
+// console.log(++a)
+// console.log(a++)
+// console.log(a)
+
+// console.log(--b)
+console.log(b--)
+console.log(b)

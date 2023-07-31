@@ -15,16 +15,16 @@
 
 
 
-if (true) {
-    if (true) {
-        if (true) {
-            var B = "Hello I am Mr.B"        //
-            console.log(B)
-        }
-    }
-}
-console.log(B)
-console.log("\n")
+// if (true) {
+//     if (true) {
+//         if (true) {
+//             var B = "Hello I am Mr.B"        //
+//             console.log(B)
+//         }
+//     }
+// }
+// console.log(B)
+// console.log("\n")
 
 
 // "BUT"
@@ -33,15 +33,16 @@ console.log("\n")
 var C = 1000
 
 function X() {
-    // var C = 3000
+    var C = 3000
     function Y() {
-        // var C = 2000
+        var C = 2000
         console.log(C)
     }
     console.log(C)
     Y()
 }
 X()
+
 console.log(C)
 console.log("\n")
 

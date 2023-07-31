@@ -10,15 +10,15 @@ new Date(date string)
 var date = new Date()
 console.log(date)
 console.log(date.toString())
+console.log(date.toDateString())
 console.log(date.toLocaleString())
 console.log(date.toTimeString())
-console.log(date.toDateString())
 
 console.log("\n\n")
 
 console.log(date.getDate())
-console.log(date.getDay())//// Sunday - Saturday : 0 - 6
-console.log(date.getMonth())
+console.log(date.getDay()) // Sunday - Saturday : 0 - 6
+console.log(date.getMonth()) // Count from 0
 console.log(date.getFullYear())
 
 
@@ -32,7 +32,7 @@ console.log(date.getHours())
 console.log(date.getMinutes())
 console.log(date.getSeconds())
 console.log(date.getMilliseconds())
-console.log("\n")
+console.log("\n\n")
 console.log(date.getUTCDate())
 console.log(date.getUTCDay())
 console.log(date.getUTCMonth())

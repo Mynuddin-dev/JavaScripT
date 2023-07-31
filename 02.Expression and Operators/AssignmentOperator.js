@@ -1,24 +1,24 @@
-var a = 3
-var b = 2
+// var a = 3
+// var b = 2
 
-console.log(a)
-a += b    //a=a+b
-console.log(a)
-a -= b
-console.log(a)
-a *=b
-console.log(a)
-a /= b 
-console.log(a)
-a %= b
-console.log(a)
-b **= a+1
-console.log(b)
+// console.log(a)
+// a += b    //a=a+b
+// console.log(a)
+// a -= b
+// console.log(a)
+// a *=b
+// console.log(a)
+// a /= b 
+// console.log(a)
+// a %= b
+// console.log(a)
+// b **= a+1
+// console.log(b)
 
 console.log("\n\n")
 var x = 3
 var y = 4
-console.log(x^y)
+console.log(x^y)  // ^ this is a bitwise operator(XOR)
 
 
 

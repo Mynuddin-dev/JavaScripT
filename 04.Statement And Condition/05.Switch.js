@@ -1,3 +1,16 @@
+// switch (expression) {
+//   case value1:
+//     // Code to be executed when expression is equal to value1
+//     break;
+//   case value2:
+//     // Code to be executed when expression is equal to value2
+//     break;
+//   // Add more cases as needed
+//   default:
+//     // Code to be executed when expression doesn't match any case
+//     break;
+// }
+
 var date = new Date();
 console.log(date)
 var today = date.getDay();
@@ -36,15 +49,21 @@ switch (today) {
 
 
 // case 4 and 5 share the same code block, and 0 and 6 share another code block:
-switch (new Date().getDay()) {
+switch (new Date().getDay()) {   //new Date().getDay() ,4,5,0,1,2,3,6
   case 4:
   case 5:
     text = "Soon it is Weekend";
+    console.log(text)
     break;
   case 0:
   case 6:
     text = "It is Weekend";
+    console.log(text)
     break;
+  case 1:
+  case 2:
+  case 3:
+    console.log("Monday Tuesday Wednesday")
   default:
     text = "Looking forward to the Weekend";
 }

@@ -4,11 +4,11 @@ for (var i = 0; i < 5; i++) {
 
 console.log(`Outside the loop: ${i}`)
 
-// for (let i = 0; i < 5; i++) {
-//     console.log(`Inside the loop: ${i}`);
-// }
+for (let j = 0; j < 5; j++) {
+    console.log(`Inside the loop: ${j}`);
+}
 
-// console.log(`Outside the loop: ${i}`);
+console.log(`Outside the loop: ${j}`);
 
 
 /* 
@@ -94,5 +94,26 @@ let counter; // error
 
 Avobe all
   let = Block scoped (variable)declaration
-  var = globa scoped (variable)declaration
+  var = global scoped (variable)declaration
 */
+
+
+// // Example using var
+// function exampleVar() {
+//   if (true) {
+//     var x = 10;
+//     console.log(x); // Output: 10
+//   }
+//   console.log(x); // Output: 10 (var is function-scoped)
+// }
+// exampleVar();
+
+// // Example using let
+// function exampleLet() {
+//   if (true) {
+//     let y = 20;
+//     console.log(y); // Output: 20
+//   }
+//   // console.log(y); // Uncommenting this line will result in a ReferenceError (let is block-scoped)
+// }
+// exampleLet();

@@ -13,6 +13,8 @@
 // l is the same as l.
 // o is greater than e. Stop here. The first string is greater.
 
+// z > y > ------------ a > Z > Y >---------------A
+
 console.log( 'Z' > 'A' ); // true
 console.log( 'Glow' > 'Glee' ); // true
 console.log( 'Bee' > 'Be' ); // true
@@ -63,7 +65,10 @@ console.log("a" < "b")
 console.log("\n")
 
 let s1 = '2 + 2'              // creates a string primitive
-let s2 = new String('2 + 2')  // creates a String object
+
+// let s2 = new String('2 + 2')  // creates a String object
+let s2 = String('2 + 2')  // creates a String constructor
+
 console.log(eval(s1))         // returns the number 4
 console.log(eval(s2))         // returns the string "2 + 2"
 

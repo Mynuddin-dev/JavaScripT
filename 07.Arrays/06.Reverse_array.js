@@ -8,11 +8,17 @@ console.log("\n")
 
 
 
-var rnum = []
+// var rnum = []
+// for (var i = num.length-1; i >=0 ; i--){
+//     rnum.push(num[i])
+// }
+// console.log(rnum)
+
 for (var i = num.length-1; i >=0 ; i--){
-    rnum.push(num[i])
+    console.log(num[i])
 }
-console.log(rnum)
+
+
 
 
 

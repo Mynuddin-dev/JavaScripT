@@ -6,7 +6,7 @@ Shift
 Unshift
 indexOf
 splice
-from(copy)
+from(copy) shallow copy 
 keys
 join
 fill

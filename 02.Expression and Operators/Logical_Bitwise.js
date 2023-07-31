@@ -7,14 +7,14 @@ console.log(~0)
 
 console.log(12 & 13 , 25 & 30)   //Bitwise &
 console.log(12 | 13 , 25 | 30)   // Bitwise |
- console.log(12 ^ 1)             //Xor Operator
- console.log(12 ^ 13)            //odd num of 1 is 1 otherwise 0
- console.log(25 ^ 30)
+console.log(12 ^ 1)             //Xor Operator
+console.log(12 ^ 13)            //odd num of 1 is 1 otherwise 0
+console.log(25 ^ 30)
 
- console.log(10 << 2)           //Left shift   => Gaining Bits
+console.log(10 << 2)           //Left shift   => Gaining Bits
 
 var a = 5                       //Left shift assignment operator
-a <<= 2; // 20
+// a <<= 2; // 20
 console.log(a)
 
 console.log(10 >> 2)           // right shift => loosing bits

@@ -21,7 +21,7 @@ console.log(point.Physics)
 console.log("Avarage Number: "+((point.Math + point.Physics + point.English + point.Chemestry)/4))
 
 var show = "Math"
-console.log(point.show)
+console.log(point.show) //point."Math" undefine
 console.log(point[show])
 console.log(point)
 

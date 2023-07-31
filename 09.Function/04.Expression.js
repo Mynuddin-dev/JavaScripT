@@ -6,7 +6,7 @@
 var addition = function (a, b) {
     return a + b;
 }
-
+console.log(addition)
 console.log(addition(10,20))
 
 // var R = add(10, 20)

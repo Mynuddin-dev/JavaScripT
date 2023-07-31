@@ -1,3 +1,5 @@
+// Array is a Data Structure where we can organize multiple data a single variable
+
 //An array in JavaScript can be defined and initialized in two ways, array literal and Array constructor syntax.
 
 
@@ -6,6 +8,8 @@
 
 
 var ar = [11, 22, 33, 44, 55, 66]
+var Ar = []
+console.log("Empty Array : ", Ar)
 console.log(ar)
 console.log("length = " +ar.length)
 console.log(ar[0])
@@ -41,8 +45,8 @@ console.log("\n")
 //any other data type.
 
 
-//Array Constructor Syntax
-//var arrayName = new Array();
+// Array Constructor Syntax
+// var arrayName = new Array();
 
 // var arrayName = new Array(Number length);
 
@@ -55,6 +59,7 @@ var ar1 = new Array()
 console.log(ar1)
 
 var ar2 = new Array(7)
+
 console.log(ar2)
 
 ar2[0] = "Hello"
@@ -80,16 +85,35 @@ for (var i = 0; i < ar2.length ; i++)
 
 /*
 
-Points to Remember :
-An array is a special type of variable that stores multiple values using a special syntax.
-An array can be created using array literal or Array constructor syntax.
-Array literal syntax: var stringArray = ["one", "two", "three"];
-Array constructor syntax:var numericArray = new Array(3);
-A single array can store values of different data types.
-An array elements (values) can be accessed using zero based index (key). e.g. array[0].
-An array index must be numeric.
-Array includes length property and various methods to operate on array objects.
+// Points to Remember :
+// An array is a special type of variable that stores multiple values using a special syntax.
+// An array can be created using array literal or Array constructor syntax.
+// Array literal syntax: var stringArray = ["one", "two", "three"];
+// Array constructor syntax:var numericArray = new Array(3);
+// A single array can store values of different data types.
+// An array elements (values) can be accessed using zero based index (key). e.g. array[0].
+// An array index must be numeric.
+// Array includes length property and various methods to operate on array objects.
 
-*/
+// */
 
 
+var barray = [1, 2, 3, 4, 5, 6, 7, 8]
+var len = 0
+// var i = 0
+// while (barray[i] !== undefined) {
+//     i++
+//     len++
+// }
+// console.log(len)
+
+while (true) {
+    if (barray[len] == undefined) {
+        break
+    }
+    else {
+        len++
+    }
+}
+
+console.log(len)
