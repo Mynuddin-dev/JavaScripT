@@ -1,0 +1,32 @@
+Javascript compile vs interpreted
+---------------------------------------------
+Compiled => first build then execute (whole source code) here debuging problem(fast process)
+Exm: C first build and creates aexecution file then it will execute
+
+Interpreted => Line by line read the code (long process)
+
+Javascript Engine is one kind of compiler
+JIT : Just In Time compiler(Jokhon jeta dorkar instant seta kore fele)
+
+
+JavaScript is primarily an interpreted language, but it has elements of both interpretation and compilation.
+
+Here's a brief explanation:
+
+Interpreted: JavaScript is often executed by an interpreter, which reads the source code line by line and immediately executes it. 
+The interpreter translates the code into machine code or bytecode on-the-fly and runs it directly without creating a separate compiled file.
+ This allows for quick and flexible development since changes to the code can be tested immediately without the need for a separate compilation step.
+
+Just-In-Time (JIT) Compilation: Modern JavaScript engines, such as V8 (used in Chrome) and SpiderMonkey (used in Firefox), 
+use a technique called Just-In-Time (JIT) compilation to optimize the execution speed. When the interpreter encounters a frequently
+used section of code, the JIT compiler may translate that section into optimized machine code. This can significantly improve the
+performance of JavaScript applications.
+
+So, while JavaScript is primarily interpreted, it may use JIT compilation to enhance performance in certain situations.
+
+The term "compiled" usually refers to languages like C, C++, or Java, where the source code is first translated into machine code
+(or bytecode) and then executed. Compiled languages often generate separate executable files that can be run directly on the target platform without the need for the source code.
+
+In summary, JavaScript is mainly interpreted, but it may incorporate JIT compilation for performance optimization, making it a 
+"Just-In-Time compiled" language in practice. This hybrid approach allows JavaScript to strike a balance between flexibility during 
+development and optimized execution performance at runtime.

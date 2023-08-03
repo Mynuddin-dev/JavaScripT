@@ -1,0 +1,22 @@
+JavaScript Engine Is an another Program which can read,understand and translate code
+
+V8 => Google chrome
+Spider Monkey => Mozila firefox
+Chakra => Microsoft
+JavaScript Core => Apple er safari
+
+Parser : Javascript code line by line read kore ekta data structure toiri korbe 
+source code ======================>  Parser
+                                        |
+                                        |
+                                        |
+                                    Abstract Window tree (data stucture) 
+                                        |
+                                        |
+                                        |
+                                    Machine code(tree convert into MC by JS Engine[compiler])
+                                        |
+                                        |
+                                        |
+                                    Execution
+
