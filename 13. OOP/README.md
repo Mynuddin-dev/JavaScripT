@@ -59,7 +59,9 @@ Here User1, User2, and User3 is the object and they can access all properties, a
 - **Methods:** Methods are the functions or actions that an object can perform. For our "User" example, methods could include "create user", "login", "logout", and "reset password."
 
 **Still confused? Here is the clarification:** Let's another Example like a **Car** can be a template or class. 
-## Possible Object, Properties, and methods
+
+### Possible Object, Properties, and methods
+
 #### Objects
 - Toyota Corolla
 - Honda Civic
@@ -154,6 +156,6 @@ Here we can say Teacher IS-A Person and Student IS-A Person. The Relation Betwee
 
 Here we can say Student HAS-A Department and Student HAS-A Subject
 
-Aggregation: When a student disappears, the Department remains unaffected. Thus, the Department functions as an independent object. This type of relationship, involving an independent object, is known as Aggregation.
+**Aggregation:** When a student disappears, the Department remains unaffected. Thus, the Department functions as an independent object. This type of relationship, involving an independent object, is known as Aggregation.
 
-Compositions: Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving a dependent object, is referred to as Composition.
+**Compositions:** Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving a dependent object, is referred to as Composition.
