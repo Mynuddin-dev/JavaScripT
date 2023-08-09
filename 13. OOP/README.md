@@ -1,3 +1,4 @@
+￼
 # Getting to Know Object-Oriented Programming (OOP)
 
 ## From Procedural to Structured Programming
@@ -125,7 +126,7 @@ Remember, OOP is a powerful paradigm that can greatly enhance your programming s
 
 1. **Abstraction:** Hiding implementation details inside and providing just the necessary API. We never know how it works, we only know what to do just like a built-in function.
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png")
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png)
 
 Abstraction is like using a TV remote without needing to understand the inner workings of the TV. It allows you to focus on what something does, rather than how it does it. In programming, it means hiding complex implementation details and providing a simpler interface.
 
