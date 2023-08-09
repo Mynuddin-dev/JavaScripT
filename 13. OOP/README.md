@@ -30,15 +30,88 @@ OOP is a way of writing computer programs by organizing your code into reusable 
 
 ### Key Concepts of OOP:
 
-- **Class:** A class is like a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have. For example, if you have a class called "User," it might have attributes like "name", "email", "password" and "nickname".
+- **Class:** A class is like a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have. For example, if you have a class called "User," it might have attributes like "name", "email", "password" and "username". 
 
-![Class and Object](link_to_your_image_here.jpg)
+<div style="display:flex; justify-content:center;">
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Class.png" alt="Class and Object" width="30%" style="margin: auto 0;" />
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Constructor.png" alt="Class and Object" alt="Image 2" width="30%"/>
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Object.png" alt="Class and Object" alt="Image 3" width="30%"/>
+</div>
 
-- **Object:** An object is an instance created from a class. If a class is a blueprint, an object is a specific realization of that blueprint. You can create multiple objects from the same class, each with its own unique data, like user1, user2...
+"Now, let's explore how we pass data into a class. We achieve this using a special function called the 'constructor.' In some cases, the constructor shares the same name as the class itself. When an object is created from a class, the constructor is automatically invoked, initializing the object's properties."
 
-- **Attributes:** Attributes are the characteristics or properties of an object. For instance, a "User" object might have attributes like "name", "email", "password" and "nickname".
+***Now User is a template or class or constructor function***
+
+***Each time we call User(Constructor function or class or template), a new user will be created***
+
+```
+const User1 = new User(data like name,email,password,username)
+const User2 = new User(data like name,email,password,username)
+const User3 = new User(data like name,email,password,username)
+```
+
+Here User1, User2, and User3 is the object and they can access all properties, and methods to their belonging class.
+
+- **Object:** An object is an instance created from a class. If a class is a blueprint, an object is a specific realization of that blueprint. You can create multiple objects from the same class, each with its own unique data, like user1, user2...(contain actual data)
+
+- **Attributes:** Attributes are the characteristics or properties of an object. For instance, a "User" object might have attributes like "name", "email", "password" and "username".
 
 - **Methods:** Methods are the functions or actions that an object can perform. For our "User" example, methods could include "create user", "login", "logout", and "reset password."
+
+**Still confused? Here is the clarification:** Let's another Example like a **Car** can be a template or class. 
+## Possible Object, Properties, and methods
+#### Objects
+- Toyota Corolla
+- Honda Civic
+- Ford Mustang
+- Chevrolet Camaro
+- Volkswagen Golf
+- BMW 3 Series
+- Mercedes-Benz C-Class
+- Audi A4
+- Nissan Altima
+- Subaru Impreza
+- ...
+
+#### Properties (Attributes)
+- Make (e.g., Toyota, Honda, Ford, etc.)
+- Model (e.g., Corolla, Civic, Mustang, etc.)
+- Year (manufacturing year)
+- Color
+- Engine type (e.g., gasoline, diesel, electric)
+- Horsepower
+- Transmission type (e.g., automatic, manual)
+- Fuel efficiency (miles per gallon)
+- Price
+- Number of doors
+- Seating capacity
+- Features (e.g., GPS, sunroof, heated seats)
+
+#### Methods (Behaviors/Actions/function): When a function is used in a class then we can call it a method.
+- Start the engine
+- Accelerate
+- Brake
+- Change gears
+- Turn on the headlights
+- Turn signal (left/right)
+- Lock/unlock doors
+- Sound horn
+- Check fuel level
+- Calculate mileage
+- Calculate maintenance cost
+- Display information (e.g., make, model, price)
+
+#### Methods 
+  - Private: Used under the class(Helper method). The object has no Private method.
+  - Public: Access by class object
+
+#### Summary
+  - An object combination of Noun, Adjective, and verb.
+  - A Capsule that can encapsulate data and operations.
+  - Has some private and public properties.
+  - Has some function called methods.
+  - Is a custom Data Type
+  - An Isolated environment for properties and methods.
 
 With the foundation of OOP, you can create more organized, reusable, and manageable code. Each object encapsulates data and behavior, making your code easier to understand and maintain.
 
