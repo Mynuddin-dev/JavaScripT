@@ -116,3 +116,22 @@ Here User1, User2, and User3 is the object and they can access all properties, a
 With the foundation of OOP, you can create more organized, reusable, and manageable code. Each object encapsulates data and behavior, making your code easier to understand and maintain.
 
 Remember, OOP is a powerful paradigm that can greatly enhance your programming skills and open doors to building more complex and robust software systems.
+
+
+
+## Main piller of OOP
+
+1. **Abstraction:** Hiding implementation details inside and providing just the necessary API. We never know how it works, we only know what to do just like a built-in function.
+
+<img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png" alt="" alt=""/>
+
+Abstraction is like using a TV remote without needing to understand the inner workings of the TV. It allows you to focus on what something does, rather than how it does it. In programming, it means hiding complex implementation details and providing a simpler interface.
+
+**Example:** Think about remote control for a toy car. You press buttons to make the car move, but you don't need to know how the car works inside. Abstraction is like that remote control. It lets you use things without worrying about how they're made. You only need to know what buttons to press to make things happen.
+
+**2.  Encapsulation:** To perform abstraction perfectly, we need encapsulation. This is the way to achieve abstraction. Encapsulation is about putting similar things (data and functions) together in a box called a "class." This keeps things organized and prevents anyone from messing with them in the wrong way.
+
+**Example:**, Imagine you have a special toy box that only you can open. Encapsulation is like that toy box. It's a way to put your toys (data) and the instructions to play with them (methods) together in a safe box (class). This helps keep your toys organized and only lets others play with them the right way, without messing them up.
+
+**3. Inheritance:** This is a fundamental concept that promotes **code reusability, avoids duplicity and efficiently extends the capabilities of existing code.** by enabling a class to inherit the properties and behaviors of another class. It's akin to passing down traits from parents to children. In the world of programming, it means that a new class can acquire and build upon the attributes and functionalities of an existing class.
+In simple terms, this is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the parent class or superclass. And the class that inherits the properties from the parent class is the child class or derived class.
