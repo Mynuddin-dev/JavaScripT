@@ -22,7 +22,7 @@ To address some of the issues in procedural programming, the concept of `struct`
 - Priority of Operations: In many cases, operation priorities were given higher importance than data integrity.
 - Real-World Relation: It was often difficult to relate code structures with real-world entities and data.
 
-## Introducing Object-Oriented Programming (OOP):
+## 1.Introducing Object-Oriented Programming (OOP):
 
 Programming is like giving instructions to a computer to perform tasks. As your programs become more complex, organizing and managing your code becomes important. That's where Object-Oriented Programming (OOP) comes in!
 
@@ -119,11 +119,11 @@ Remember, OOP is a powerful paradigm that can greatly enhance your programming s
 
 
 
-## Main piller of OOP
+## 2.Main piller of OOP
 
 1. **Abstraction:** Hiding implementation details inside and providing just the necessary API. We never know how it works, we only know what to do just like a built-in function.
 
-<img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png" alt="" alt=""/>
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png")
 
 Abstraction is like using a TV remote without needing to understand the inner workings of the TV. It allows you to focus on what something does, rather than how it does it. In programming, it means hiding complex implementation details and providing a simpler interface.
 
@@ -135,3 +135,25 @@ Abstraction is like using a TV remote without needing to understand the inner wo
 
 **3. Inheritance:** This is a fundamental concept that promotes **code reusability, avoids duplicity and efficiently extends the capabilities of existing code.** by enabling a class to inherit the properties and behaviors of another class. It's akin to passing down traits from parents to children. In the world of programming, it means that a new class can acquire and build upon the attributes and functionalities of an existing class.
 In simple terms, this is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the parent class or superclass. And the class that inherits the properties from the parent class is the child class or derived class.
+
+## 3.Relation between object
+
+**1. IS-A-RELATION:** Inheritance means IS-A relation.
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/ISA1.png)
+
+In this picture there a three object Person, a Student, and a Teacher. Teacher and Student have some common properties which are in the Person object. So they can inherit the common properties from the Person object.
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/IS-A3.png)
+
+Here we can say Teacher IS-A Person and Student IS-A Person. The Relation Between Student to Person and Teacher to Person IS-A relation.
+
+**2. HAS-A-RELATION:** Aggregation and Compositions
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/HAS-A.png)
+
+Here we can say Student HAS-A Department and Student HAS-A Subject
+
+Aggregation: When a student disappears, the Department remains unaffected. Thus, the Department functions as an independent object. This type of relationship, involving an independent object, is known as Aggregation.
+
+Compositions: Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving a dependent object, is referred to as Composition.
