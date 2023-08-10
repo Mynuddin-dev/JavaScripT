@@ -59,52 +59,14 @@ Here User1, User2, and User3 is the object and they can access all properties, a
 
 - **Methods:** Methods are the functions or actions that an object can perform. For our "User" example, methods could include "create user", "login", "logout", and "reset password."
 
-**Still confused? Here is the clarification:** Let's another Example like a **Car** can be a template or class. 
+### Still confused? Here is the clarification:
 
-### Possible Object, Properties, and methods
+Let's another Example a **Car** can be a template or class. 
 
-#### Objects
-- Toyota Corolla
-- Honda Civic
-- Ford Mustang
-- Chevrolet Camaro
-- Volkswagen Golf
-- BMW 3 Series
-- Mercedes-Benz C-Class
-- Audi A4
-- Nissan Altima
-- Subaru Impreza
-- ...
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Car%20example.png)
 
-#### Properties (Attributes)
-- Make (e.g., Toyota, Honda, Ford, etc.)
-- Model (e.g., Corolla, Civic, Mustang, etc.)
-- Year (manufacturing year)
-- Color
-- Engine type (e.g., gasoline, diesel, electric)
-- Horsepower
-- Transmission type (e.g., automatic, manual)
-- Fuel efficiency (miles per gallon)
-- Price
-- Number of doors
-- Seating capacity
-- Features (e.g., GPS, sunroof, heated seats)
 
-#### Methods (Behaviors/Actions/function): When a function is used in a class then we can call it a method.
-- Start the engine
-- Accelerate
-- Brake
-- Change gears
-- Turn on the headlights
-- Turn signal (left/right)
-- Lock/unlock doors
-- Sound horn
-- Check fuel level
-- Calculate mileage
-- Calculate maintenance cost
-- Display information (e.g., make, model, price)
-
-#### Methods 
+#### Methods: When a function is used in a class then we can call it a method.
   - Private: Used under the class(Helper method). The object has no Private method.
   - Public: Access by class object
 
@@ -166,3 +128,29 @@ Here we can say Student HAS-A Department and Student HAS-A Subject
 **Composition:**  Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving dependent classes, is referred to as Composition.
 
 **Simplified Explanation:** Composition is a "Has-A" relationship between classes where both classes are dependent on each other. One class cannot exist without the presence of another class. For example, consider the relationship between a Laptop and its Processor. A laptop cannot exist without its processor.
+
+## OOP Case Study 01: University Management System(Basic)
+### Clients Requirements
+Build a university management system Where the admin can manage Students, Guardians, Teachers, Staff, Departments, Subjects, exams, and accounts. Admin can Create, Update, delete and manage all resources.
+
+### <p align="center"> Step </p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Project%20Step.png)
+
+### <p align="center"> Object Mapping </p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/breakdown.png)
+
+### <p align="center"> Possible Attributes </p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/attributes.png)
+
+### <p align="center"> UML Diagram(Not perfect but enough as a beginner)</p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/UML2.png)
+
+
+
+
+
+
