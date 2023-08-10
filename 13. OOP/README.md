@@ -139,13 +139,15 @@ Abstraction is like using a TV remote without needing to understand the inner wo
 **3. Inheritance:** This is a fundamental concept that promotes **code reusability, avoids duplicity and efficiently extends the capabilities of existing code.** by enabling a class to inherit the properties and behaviors of another class. It's akin to passing down traits from parents to children. In the world of programming, it means that a new class can acquire and build upon the attributes and functionalities of an existing class.
 In simple terms, this is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the parent class or superclass. And the class that inherits the properties from the parent class is the child class or derived class.
 
-## 3.Relation between object
+**4. Polymorphism:** Derived from 2 Greek words. Poly means many and morphs means forms. So polymorphism means many forms.
+
+## 3.Relation between classes
 
 **1. IS-A-RELATION:** Inheritance means IS-A relation.
 
 ![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/ISA1.png)
 
-In this picture there a three object Person, a Student, and a Teacher. Teacher and Student have some common properties which are in the Person object. So they can inherit the common properties from the Person object.
+In this picture there a three class Person, a Student, and a Teacher. Teacher and Student have some common properties which are in the Person class. So they can inherit the common properties from the Person class.
 
 ![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/IS-A3.png)
 
@@ -157,6 +159,10 @@ Here we can say Teacher IS-A Person and Student IS-A Person. The Relation Betwee
 
 Here we can say Student HAS-A Department and Student HAS-A Subject
 
-**Aggregation:** When a student disappears, the Department remains unaffected. Thus, the Department functions as an independent object. This type of relationship, involving an independent object, is known as Aggregation.
+**Aggregation:** When a student disappears, the Department remains unaffected. Thus, the Department functions as an independent class. This type of relationship, involving an independent class, is known as Aggregation.
 
-**Compositions:** Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving a dependent object, is referred to as Composition.
+**Simplified Explanation:** Simplified Explanation: Aggregation is a "Has-A" relationship between two classes, where each class can exist without the other. In other words, these classes are independent.
+
+**Composition:**  Within a Department, multiple Subjects can exist. However, if the parent Department ceases to exist, the Subjects lose their significance. In this case, they are dependent on the Department. This kind of relationship, involving dependent classes, is referred to as Composition.
+
+**Simplified Explanation:** Composition is a "Has-A" relationship between classes where both classes are dependent on each other. One class cannot exist without the presence of another class. For example, consider the relationship between a Laptop and its Processor. A laptop cannot exist without its processor.
