@@ -23,7 +23,7 @@ To address some of the issues in procedural programming, the concept of `struct`
 - Priority of Operations: In many cases, operation priorities were given higher importance than data integrity.
 - Real-World Relation: It was often difficult to relate code structures with real-world entities and data.
 
-## 1.Introducing Object-Oriented Programming (OOP):
+## 1. Introducing Object-Oriented Programming (OOP):
 
 Programming is like giving instructions to a computer to perform tasks. As your programs become more complex, organizing and managing your code becomes important. That's where Object-Oriented Programming (OOP) comes in!
 
@@ -34,9 +34,9 @@ OOP is a way of writing computer programs by organizing your code into reusable 
 - **Class:** A class is like a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have. For example, if you have a class called "User," it might have attributes like "name", "email", "password" and "username". 
 
 <div style="display:flex; justify-content:center;">
-  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Class.png" alt="Class and Object" width="30%" style="margin: auto 0;" />
-  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Constructor.png" alt="Class and Object" alt="Image 2" width="30%"/>
-  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Object.png" alt="Class and Object" alt="Image 3" width="30%"/>
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/Class.png" alt="Class and Object" width="30%" style="margin: auto 0;" />
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/Constructor.png" alt="Class and Object" alt="Image 2" width="30%"/>
+  <img src="https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/Object.png" alt="Class and Object" alt="Image 3" width="30%"/>
 </div>
 
 "Now, let's explore how we pass data into a class. We achieve this using a special function called the 'constructor.' In some cases, the constructor shares the same name as the class itself. When an object is created from a class, the constructor is automatically invoked, initializing the object's properties."
@@ -63,7 +63,7 @@ Here User1, User2, and User3 is the object and they can access all properties, a
 
 Let's another Example a **Car** can be a template or class. 
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Car%20example.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/Car%20example.png)
 
 
 #### Methods: When a function is used in a class then we can call it a method.
@@ -88,7 +88,7 @@ Remember, OOP is a powerful paradigm that can greatly enhance your programming s
 
 1. **Abstraction:** Hiding implementation details inside and providing just the necessary API. We never know how it works, we only know what to do just like a built-in function.
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/buitin.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/buitin.png)
 
 Abstraction is like using a TV remote without needing to understand the inner workings of the TV. It allows you to focus on what something does, rather than how it does it. In programming, it means hiding complex implementation details and providing a simpler interface.
 
@@ -107,17 +107,17 @@ In simple terms, this is the procedure in which one class inherits the attribute
 
 **1. IS-A-RELATION:** Inheritance means IS-A relation.
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/ISA1.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/ISA1.png)
 
 In this picture there a three class Person, a Student, and a Teacher. Teacher and Student have some common properties which are in the Person class. So they can inherit the common properties from the Person class.
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/IS-A3.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/IS-A3.png)
 
 Here we can say Teacher IS-A Person and Student IS-A Person. The Relation Between Student to Person and Teacher to Person IS-A relation.
 
 **2. HAS-A-RELATION:** Aggregation and Compositions
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/HAS-A.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/HAS-A.png)
 
 Here we can say Student HAS-A Department and Student HAS-A Subject
 
@@ -135,33 +135,33 @@ Build a university management system Where the admin can manage Students, Guardi
 
 ### <p align="center"> Step </p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/Project%20Step.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/Project%20Step.png)
 
 ### <p align="center"> Object Mapping </p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/breakdown.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/breakdown.png)
 
 ### <p align="center"> Possible Attributes </p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/attributes.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/attributes.png)
 
 ### <p align="center"> UML Diagram(Not perfect but enough as a beginner)</p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/UML2.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/UML2.png)
 
 ## OOP Case Study 02: E-commerce Applications
 
 ### <p align="center"> UML Diagram</p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/EcomerceApplication.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/EcomerceApplication.png)
 
 ## OOP Case Study 03: Account Management
 
 ### <p align="center"> UML Diagram</p>
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/BMUI.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/BMUI.png)
 
-![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/BankManagement.png)
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/OOP%20Theory%20Resources/BankManagement.png)
 
 
 
