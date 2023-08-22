@@ -149,6 +149,19 @@ Build a university management system Where the admin can manage Students, Guardi
 
 ![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/UML2.png)
 
+## OOP Case Study 02: E-commerce Applications
+
+### <p align="center"> UML Diagram</p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/EcomerceApplication.png)
+
+## OOP Case Study 03: Account Management
+
+### <p align="center"> UML Diagram</p>
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/BMUI.png)
+
+![](https://github.com/Mynuddin-dev/JavaScripT/blob/main/13.%20OOP/BankManagement.png)
 
 
 
