@@ -1,24 +1,32 @@
+// private property using symbol
+// Symbol('eta just ekta understanding message') , normally its has no value
+
+const _name = Symbol('name')
+const _email = Symbol('email')
+    
+
 class Person{
+
     constructor(name, email) {  
-        this._name = name
-        this._email = email
+        this[_name] = name
+        this[_email] = email
 
     }
 
     get name() {
-        return this._name
+        return this[_name]
     }
 
     set name(value) {
-        this._name = value
+        this[_name] = value
     }
 
     get email() {
-        return this._email
+        return this[_email]
     }
 
     set email(value) {
-        this._email = value
+        this[_email] = value
     }
     
     print() {
@@ -27,7 +35,7 @@ class Person{
 
     // run this with comment and without comment
     toString() {
-        return `_name: ${this._name} , _email: ${this._email}`
+        return `_name: ${this[_name]} , _email: ${this[_email]}`
     }
 
     static isValid(age) {
