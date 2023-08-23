@@ -18,9 +18,7 @@ class Person{
         console.log("Sending Email", msg)
     }
 
-    // Method 1: method inside class body
     // when use function in class its called method
-
     // Method 1: method inside class body using regular function
     print() {
         console.log(this) // here this means actually object
