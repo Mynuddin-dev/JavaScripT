@@ -1,3 +1,4 @@
+// import classes
 const Person = require("./Person")
 const Student = require("./Student")
 const Teacher = require("./Teacher")

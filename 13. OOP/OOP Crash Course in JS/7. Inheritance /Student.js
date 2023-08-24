@@ -24,4 +24,5 @@ class Student extends Person{
     }
 }
 
+// Export the class 
 module.exports = Student

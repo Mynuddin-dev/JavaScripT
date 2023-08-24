@@ -49,5 +49,5 @@ class Person{
         return true
     }
 }
-
+// Export the class 
 module.exports = Person
